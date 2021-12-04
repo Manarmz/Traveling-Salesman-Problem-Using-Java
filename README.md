@@ -535,11 +535,11 @@ public void setArrayvertex (Vertex [] arrayVertex) {
             double x2 = v2.x;
             double y2 = v2.y;
 
-            double x = x1 - x2;//selisih x
-            double y = y1 - y2;//selisih y
+            double x = x1 - x2;
+            double y = y1 - y2;
 
-            double xx = x * x;//kuadrat x
-            double yy = y * y;//kuadrat y
+            double xx = x * x;
+            double yy = y * y;
 
             double xxyy = xx + yy;
             double z = Math.sqrt(xxyy);
